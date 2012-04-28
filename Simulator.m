@@ -81,11 +81,9 @@
         return EXIT_FAILURE;
     }
     
-    DTiPhoneSimulatorSystemRoot *sdkRoot = [DTiPhoneSimulatorSystemRoot defaultRoot];
-    
     DTiPhoneSimulatorSessionConfig *config = [[DTiPhoneSimulatorSessionConfig alloc] init];
     [config setApplicationToSimulateOnStart:appSpec];
-    [config setSimulatedSystemRoot:sdkRoot];
+    [config setSimulatedSystemRoot:_sdk];
 	[config setSimulatedDeviceFamily:_family];
     [config setSimulatedApplicationShouldWaitForDebugger:NO];    
     [config setSimulatedApplicationLaunchArgs:_args];
