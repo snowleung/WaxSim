@@ -171,6 +171,7 @@
 				GCC_PREFIX_HEADER = WaxSim_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks\" $(DEVELOPER_DIR)/../OtherFrameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = waxsim;
 			};
 			name = Debug;
@@ -190,6 +191,7 @@
 				GCC_PREFIX_HEADER = WaxSim_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks\" $(DEVELOPER_DIR)/../OtherFrameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = waxsim;
 			};
 			name = Release;
